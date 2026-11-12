@@ -1,0 +1,23 @@
+fastapi
+uvicorn[standard]
+streamlit
+pydantic
+python-dotenv
+requests
+httpx
+sqlalchemy
+python-multipart
+pandas
+groq
+pytest
+ruff
+# Later phases
+# langchain
+# langgraph
+# llama-index
+# pinecone
+# torch
+# transformers
+# tree-sitter
+# mlflow
+# dvc

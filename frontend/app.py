@@ -4,7 +4,9 @@ import pandas as pd
 import requests
 import streamlit as st
 
-BACKEND = os.getenv("BACKEND_URL", "http://localhost:8000")
+BACKEND = os.getenv("BACKEND_URL", "http://127.0.0.1:8001")
+
+
 st.set_page_config(page_title="CodeGenesis AI", page_icon="🧬", layout="wide")
 st.title("🧬 CodeGenesis AI")
 st.caption("Autonomous Multi-Agent Software Engineering Platform")
